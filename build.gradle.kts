@@ -3,7 +3,7 @@ import org.gradle.api.Project.DEFAULT_VERSION
 plugins {
     kotlin("jvm") version embeddedKotlinVersion
     kotlin("kapt") version embeddedKotlinVersion
-    id("io.johnsonlee.sonatype-publish-plugin") version "1.8.0"
+    id("io.johnsonlee.sonatype-publish-plugin") version "1.9.0"
 }
 
 group = "io.johnsonlee"
